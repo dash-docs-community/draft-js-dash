@@ -33,11 +33,11 @@ $section.each(function(i, elem){
 
         // set the Dash types based on the doc headers.
         switch ($sectionHeader) {
-            case 'Reference':
+            case 'API Reference':
                 page.type = 'Library';
                 page.toc = 'Section';
                 break;
-            case 'Community Resources':
+            case 'Advanced Topics':
                 page.type = 'Resource';
                 page.toc = 'Section';
                 break;

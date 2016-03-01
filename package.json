@@ -1,10 +1,10 @@
 {
-  "name": "flux-dash",
-  "version": "1.2.0",
-  "description": "Flux Documentation Source for Dash (http://kapeli.com/dash)",
+  "name": "draft-js-dash",
+  "version": "0.1.0",
+  "description": "Draft.js Documentation Source for Dash (http://kapeli.com/dash)",
   "repository": {
     "type": "git",
-    "url": "https://github.com/epitaphmike/flux-dash"
+    "url": "https://github.com/epitaphmike/draft-js-dash"
   },
   "main": "src/index.js",
   "dependencies": {
@@ -14,8 +14,9 @@
     "sqlite3": "^3.0.9"
   },
   "keywords": [
-    "Flux",
-    "A javascript framework for building data-driven react applications",
+    "Draft",
+    "DraftJS",
+    "A React framework for building text editors",
     "React",
     "Reactjs",
     "Facebook",
@@ -29,7 +30,7 @@
   "author": "Michael Sharer <m@29degre.es> (http://29degre.es)",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/epitaphmike/flux-dash/issues"
+    "url": "https://github.com/epitaphmike/draft-js-dash/issues"
   },
-  "homepage": "https://github.com/epitaphmike/flux-dash"
+  "homepage": "https://github.com/epitaphmike/draft-js-dash"
 }

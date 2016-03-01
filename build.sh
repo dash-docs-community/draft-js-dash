@@ -1,6 +1,6 @@
 # clean up previous remains, if any
 rm -rf Contents/Resources
-rm -rf Flux.docset
+rm -rf DraftJS.docset
 mkdir -p Contents/Resources/Documents
 
 # create a fresh sqlite db
@@ -10,10 +10,10 @@ sqlite3 docSet.dsidx 'CREATE UNIQUE INDEX anchor ON searchIndex (name, type, pat
 
 # fetch the whole doc site
 cd Documents
-wget -m -p -E -k -np http://facebook.github.io/flux/
+wget -m -p -E -k -np http://facebook.github.io/draft-js/
 
 # move it around a bit
-mv facebook.github.io/flux ./
+mv facebook.github.io/draft-js ./
 rm -rf facebook.github.io
 cd ../../../
 
@@ -27,9 +27,9 @@ node src/modifyDocsHTML.js
 node src/index.js
 
 # bundle up!
-mkdir Flux.docset
-cp -r Contents Flux.docset
-cp src/icon* Flux.docset
+mkdir DraftJS.docset
+cp -r Contents DraftJS.docset
+cp src/icon* DraftJS.docset
 
 # Create gzip bundle for Dash Contribution
-tar --exclude='.DS_Store' -cvzf Flux.tgz Flux.docset
+tar --exclude='.DS_Store' -cvzf DraftJS.tgz DraftJS.docset

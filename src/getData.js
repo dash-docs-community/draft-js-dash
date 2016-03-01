@@ -8,7 +8,7 @@ var indexedFiles = require('./indexedFiles');
 // Contents/Resources/Documents/
 function getData() {
     var res = indexedFiles.map(function(array) {
-        // link url format ie. flux/docs/flux-utils.html#
+        // link url format ie. draft-js/docs/advanced-topics-entities.html#
         var url = config.name + '/docs/' + array.name + '.html';
         var path = __dirname + '/../Contents/Resources/Documents/' + url;
         var src = fs.readFileSync(path, 'utf-8');
@@ -40,9 +40,3 @@ function getData() {
 }
 
 module.exports = getData;
-
-
-
-
-
-

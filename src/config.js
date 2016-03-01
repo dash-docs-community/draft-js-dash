@@ -1,6 +1,6 @@
 var config = {
-    "name" : "flux",
-    "properName" : "Flux",
+    "name" : "draft-js",
+    "properName" : "DraftJS",
     "index" : "overview.html",
     "sectionClass" : "nav-docs-section",
     "headerTag" : "h3",

@@ -5,9 +5,9 @@
   <key>CFBundleIdentifier</key>
   <string>Facebook</string>
   <key>CFBundleName</key>
-  <string>Flux</string>
+  <string>Draft.js</string>
   <key>DocSetPlatformFamily</key>
-  <string>Flux</string>
+  <string>Draft.js</string>
   <key>DashDocSetFamily</key>
   <string>dashtoc</string>
   <key>isDashDocset</key>
@@ -15,6 +15,6 @@
   <key>isJavaScriptEnabled</key>
   <true/>
   <key>dashIndexFilePath</key>
-  <string>flux/index.html</string>
+  <string>draft-js/index.html</string>
 </dict>
 </plist>
