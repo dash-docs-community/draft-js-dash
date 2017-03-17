@@ -1,6 +1,6 @@
 {
   "name": "draft-js-dash",
-  "version": "0.1.0",
+  "version": "0.10.0",
   "description": "Draft.js Documentation Source for Dash (http://kapeli.com/dash)",
   "repository": {
     "type": "git",
@@ -10,8 +10,9 @@
   "dependencies": {
     "cheerio": "^0.19.0",
     "lodash.flatten": "^3.0.2",
-    "sequelize": "^3.0.0",
-    "sqlite3": "^3.0.9"
+    "sequelize": "^3.23.6",
+    "sqlite3": "^3.0.9",
+    "snyk": "^1.25.2"
   },
   "keywords": [
     "Draft",
@@ -25,12 +26,15 @@
   ],
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "snyk test",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "author": "Michael Sharer <m@29degre.es> (http://29degre.es)",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/epitaphmike/draft-js-dash/issues"
   },
-  "homepage": "https://github.com/epitaphmike/draft-js-dash"
+  "homepage": "https://github.com/epitaphmike/draft-js-dash",
+  "snyk": true
 }

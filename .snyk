@@ -1,0 +1,38 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.7.0
+# ignores vulnerabilities until expiry date; change duration by modifying expiry date
+ignore:
+  'npm:qs:20170213':
+    - sqlite3 > node-pre-gyp > request > qs:
+        reason: None given
+        expires: '2017-04-16T01:36:17.414Z'
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:bl:20160119':
+    - sqlite3 > node-pre-gyp > request > bl:
+        patched: '2017-03-17T01:35:41.771Z'
+  'npm:hawk:20160119':
+    - sqlite3 > node-pre-gyp > request > hawk:
+        patched: '2017-03-17T01:35:41.771Z'
+  'npm:is-my-json-valid:20160118':
+    - sqlite3 > node-pre-gyp > request > har-validator > is-my-json-valid:
+        patched: '2017-03-17T01:35:41.771Z'
+  'npm:minimatch:20160620':
+    - sqlite3 > node-pre-gyp > tar > fstream > rimraf > glob > minimatch:
+        patched: '2017-03-17T01:35:41.771Z'
+    - sqlite3 > node-pre-gyp > rimraf > glob > minimatch:
+        patched: '2017-03-17T01:35:41.771Z'
+    - sqlite3 > node-pre-gyp > tar-pack > fstream-ignore > minimatch:
+        patched: '2017-03-17T01:35:41.771Z'
+  'npm:node-uuid:20160328':
+    - sqlite3 > node-pre-gyp > request > node-uuid:
+        patched: '2017-03-17T01:35:41.771Z'
+  'npm:request:20160119':
+    - sqlite3 > node-pre-gyp > request:
+        patched: '2017-03-17T01:35:41.771Z'
+  'npm:tar:20151103':
+    - sqlite3 > node-pre-gyp > tar-pack > tar:
+        patched: '2017-03-17T01:35:41.771Z'
+  'npm:tough-cookie:20160722':
+    - sqlite3 > node-pre-gyp > request > tough-cookie:
+        patched: '2017-03-17T01:35:41.771Z'

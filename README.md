@@ -1,5 +1,7 @@
 # [Draft.js](http://facebook.github.io/draft-js/) documentation for [Dash](http://kapeli.com/dash)
 
+[![Known Vulnerabilities](https://snyk.io/test/github/epitaphmike/draft-js-dash/badge.svg)](https://snyk.io/test/github/epitaphmike/draft-js-dash) [![Build Status](https://travis-ci.org/epitaphmike/draft-js-dash.svg?branch=master)](https://travis-ci.org/epitaphmike/draft-js-dash)
+
 ## Installation in Dash
 
 **To install the Draft.js documentation in Dash, go to:**
@@ -26,7 +28,7 @@ Clone this repo, `cd` into it and do:
 
 The script will:
 
-- Fetch the newest released Draft.js documentation from http://facebook.github.io/draft-js/.
+- Fetch the newest released Draft.js documentation from https://draftjs.org/.
 - Parse the doc site into a new SQLite database for Dash.
 - Create a json file based on the documentation sections and sub-sections.
 - Bundle up the result in a DraftJS.docset.

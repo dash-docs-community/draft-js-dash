@@ -10,11 +10,10 @@ sqlite3 docSet.dsidx 'CREATE UNIQUE INDEX anchor ON searchIndex (name, type, pat
 
 # fetch the whole doc site
 cd Documents
-wget -m -p -E -k -np http://facebook.github.io/draft-js/
+wget -m -p -E -k -np https://draftjs.org/
 
 # move it around a bit
-mv facebook.github.io/draft-js ./
-rm -rf facebook.github.io
+mv draftjs.org ./draft-js
 cd ../../../
 
 # create data file from base index page
@@ -33,3 +32,4 @@ cp src/icon* DraftJS.docset
 
 # Create gzip bundle for Dash Contribution
 tar --exclude='.DS_Store' -cvzf DraftJS.tgz DraftJS.docset
+

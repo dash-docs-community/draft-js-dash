@@ -20,6 +20,11 @@ var indexedFiles = [
         "toc": "Section"
     },
     {
+        "name": "v0-10-api-migration",
+        "type": "Resource",
+        "toc": "Section"
+    },
+    {
         "name": "advanced-topics-decorators",
         "type": "Resource",
         "toc": "Section"
@@ -36,6 +41,11 @@ var indexedFiles = [
     },
     {
         "name": "advanced-topics-block-styling",
+        "type": "Resource",
+        "toc": "Section"
+    },
+    {
+        "name": "advanced-topics-custom-block-render-map",
         "type": "Resource",
         "toc": "Section"
     },
@@ -70,6 +80,11 @@ var indexedFiles = [
         "toc": "Section"
     },
     {
+        "name": "api-reference-editor-change-type",
+        "type": "Library",
+        "toc": "Section"
+    },
+    {
         "name": "api-reference-editor-state",
         "type": "Library",
         "toc": "Section"
@@ -100,7 +115,27 @@ var indexedFiles = [
         "toc": "Section"
     },
     {
+        "name": "api-reference-composite-decorator",
+        "type": "Library",
+        "toc": "Section"
+    },
+    {
         "name": "api-reference-data-conversion",
+        "type": "Library",
+        "toc": "Section"
+    },
+    {
+        "name": "api-reference-rich-utils",
+        "type": "Library",
+        "toc": "Section"
+    },
+    {
+        "name": "api-reference-atomic-block-utils",
+        "type": "Library",
+        "toc": "Section"
+    },
+    {
+        "name": "api-reference-key-binding-util",
         "type": "Library",
         "toc": "Section"
     },
