@@ -1,6 +1,6 @@
 {
   "name": "draft-js-dash",
-  "version": "0.10.0",
+  "version": "0.10.1",
   "description": "Draft.js Documentation Source for Dash (http://kapeli.com/dash)",
   "repository": {
     "type": "git",
